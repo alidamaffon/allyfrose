@@ -1,0 +1,36 @@
+.pagination {
+    background-color: #DCDCDC;
+    padding: 50px 0 40px 0;
+    margin: 0;
+}
+
+.paginationItems,
+.pageNumbers {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pageNumbers li {
+    font-family: 'Poiret One', sans-serif;
+    display: inline-block;
+    font-size: 15px;  
+    cursor: pointer;
+    padding: 10px;
+}
+
+.pageNumbers li:hover {
+    text-decoration: underline;
+}
+
+@media (max-width : 900px) {
+    .pageNumbers li  {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .pageNumbers li  {
+        font-size: 11px;
+    }
+}

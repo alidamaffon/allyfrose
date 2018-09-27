@@ -1,0 +1,46 @@
+.promoContainer {
+    text-align: center;
+    padding: 60px;
+}
+
+.promoTitle {
+    font-family: 'Proza Libre', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.promoHeader,
+.promoSubtitle {
+    font-family: 'Nixie One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.promoHeader {
+    text-transform: uppercase;
+}
+
+@media (max-width : 900px) {
+    .promoTitle {
+        font-size: 40px;
+    }
+
+    .promoHeader,
+    .promoSubtitle {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .promoTitle {
+        font-size: 20px;
+    }
+
+    .promoHeader,
+    .promoSubtitle {
+        font-size: 11px;
+    }
+}

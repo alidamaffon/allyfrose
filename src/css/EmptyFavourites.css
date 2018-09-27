@@ -1,0 +1,19 @@
+.favouritesEmpty {
+    font-family: 'Nixie One', sans-serif;
+    background-color: #DCDCDC;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 100px;
+}
+
+.emptyFavouriteIcon {
+    margin-bottom: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+@media (max-width : 500px) {
+    .favouritesEmpty {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,29 @@
+.poetryReadMore { 
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+
+.poetryReadMoreLink {
+    font-family: 'Nixie One', sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.poetryReadMoreLink:hover {
+    text-decoration: underline;
+}
+
+@media (max-width : 900px) {
+    .poetryReadMoreLink {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .poetryReadMoreLink {
+        font-size: 11px;
+    }
+}

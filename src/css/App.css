@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant|Croissant+One|Nixie+One|Poiret+One|Wire+One|Cinzel|Michroma|Baloo+Bhai|Russo+One|Julius+Sans+One|Bowlby+One+SC|Proza+Libre|Chonburi|Rubik+Mono+One|Ramabhadra');
+
+/** Note
+1- Header: 'Croissant One', cursive
+2- Button: font-family: 'Wire One', sans-serif
+3- Error, Loading: font-family: 'Poiret One', cursive
+4- Cookie policy Text: font-family: 'Nixie One', cursive
+First Level: font-family: 'Poiret One', cursive
+Second Level: font-family: 'Nixie One', cursive
+font-family: 'Cormorant Infant', serif;
+**/
+
+.App {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}

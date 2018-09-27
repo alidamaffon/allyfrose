@@ -1,0 +1,365 @@
+{
+    "welcomeMessage": {
+        "welcome" : "Hello!",
+        "welcomeBack": "Welcome back Stranger!",
+        "frequentVisitor": "More than a stranger, Hello to a new Friend!"
+    },
+
+    "en": {
+        "welcomeMessage": {
+            "welcome" : "Hello Stranger!",
+            "welcomeBack": "Welcome back Stranger!",
+            "frequentVisitor": "More than a stranger, Hello to a new Friend!"
+        },
+
+        "author": "Ally F. Rose",
+
+        "authorDescription": {
+            "quote": "“Creativity is discontent translated into arts,” Eric Hoffer",
+            "desc": "Ally F. Rose is an avid reader and a young author.\nShe likes to push the boundaries of conformism by creating down-to-earth, authentic and entertaining characters, she hopes, her readers will relate to.\nHer books are currently published on all the major platforms: Amazon (Kindle), KOBO, Atramenta…\nShe enjoys travelling and lives around the world.",
+            "contact": "Contact: allyfrose@gmail.com",
+            "cta": "Discover"
+        },
+
+        "header": {
+            "home": {
+                "path": "/",
+                "text": "About"
+            },
+            "library": {
+                "path": "/library",
+                "text": "Library"
+            },
+            "poetry": {
+                "path": "/poetry",
+                "text": "Poetry"
+            },
+            "news": {
+                "path": "/news",
+                "text": "News"
+            },
+            "contact": {
+                "path": "/contact",
+                "text": "Contact"
+            }
+
+        },
+        
+        "mainMenu": [
+            {
+                "id": "home",
+                "path": "/",
+                "text": "About"
+            },
+            {
+                "id": "books",
+                "path": "/library",
+                "text": "Library"
+            },
+            {
+                "id": "poetry",
+                "path": "/poetry",
+                "text": "Poetry"
+            },
+            {
+                "id": "news",
+                "path": "/news",
+                "text": "News"
+            },
+            {
+                "id": "contact",
+                "path": "/contact",
+                "text": "Contact"
+            }
+        ],
+
+        "loading": "Loading...",
+        
+        "readMore": "Read More",
+        
+        "genericErrorMessage": "Oops, something went wrong. Please try again.",
+        
+        "redirectErrorMessage": "The link to the store seems broken. Please try again.",
+        
+        "viewTitle": {
+            "library": "Library",
+            "poetry": "Poetry",
+            "news": "News",
+            "contact": "Contact",
+            "allyRose": "Ally F. Rose",
+            "about": "Who is she?"
+        },
+
+        "contact": {
+            "title": "Contact",
+            "secondaryTitle": "Let's talk!",
+            "message": "To contact Ally, you can send en email to this address: allyfrose@gmail.com or fill the form below.<br />All fields are mandatory.<br />Thank You!",
+            "fields": {
+                "name": "Your name (required)",
+                "email": "Your e-mail (required)",
+                "subject": "Subject (required)",
+                "message": "Your message (required)",
+                "submit": "Submit"
+            },
+            "complete": {
+                "success": "All good!<br />Ally will reply ASAP.",
+                "failure": "Oops! Something went wrong.<br />Please try again or send an email to allyfrose@gmail.com.<br />Thanks!"
+            }
+        },
+        
+        "cookieMessage": "To make this site work properly, we sometimes place small data files called cookies on your device. Most big websites do this too. For details, see aboutcookies.org.",
+        
+        "defaultErrorDesc": {
+            "title": "ALLY F. ROSE",
+            "message": "Oops, something went wrong. Please try again."
+        },
+
+        "bookDescription": {
+            "excerpt": "Excerpt",
+            "summary": "About the book",
+            "buy": "Buy the book",
+            "available": "The book is now available on:",
+            "sequel": "Sequel",
+            "genre": "Genres",
+            "more": "More Books",
+            "explore": "Explore"
+        },
+
+        "poetryItem": {
+            "readMore": "Read More",
+            "likes": "Like(s)",
+            "readNext": "Up Next",
+            "read": "Read",
+            "addToFavourites": "Add to favourites",
+            "removeFromFavourites": "Remove from favourites",
+            "favouritesEmptyText": "The poetry item you've added in your favourites will appear here",
+            "favourites": "Your favourites",
+            "mostPopular": "Order by most popular",
+            "all": "Order by latest"
+        },
+
+        "formValidation": {
+            "empty": "Some required fields are empty.",
+            "email": " The email you have entered seems invalid.",
+            "length": "This field must contains more than 10 characters."
+        },
+
+        "themes": [
+            {
+                "name": "purple",
+                "color": "#403F63",
+                "secondary": "#FFFFFF"
+            }, 
+            {
+                "name": "darkPink",
+                "color": "#C36891",
+                "secondary": "#FFFFFF"
+            }, 
+            {
+                "name": "blue",
+                "color": "#74B9E8",
+                "secondary": "#000000"
+            },
+            {
+                "name": "lightGreen",
+                "color": "#5ec5be",
+                "secondary": "#000000"
+            }
+        ],
+
+        "bookLatestNews": {
+            "header": "Up next",
+            "title": "Les Sulfureuses",
+            "subtitle": "The second book of the 'La Reine de Glace' trilogy"
+        },
+
+        "askAQuestion": "Ask a question",
+
+        "footer": {
+            "quickLinks": "Quick Links",
+            "helpInfo": "Help & Info",
+            "contact": "Contact",
+            "cookiePolicy": "Cookie Policy",
+            "copyright": "Copyright © 2018 Ally F. Rose. All screenshots © of their respective owners."
+        }
+    },
+
+    "fr": {
+        "welcomeMessage": {
+            "welcome" : "Hello!",
+            "welcomeBack": "Ravie de vous revoir!",
+            "frequentVisitor": "Cher ami, bon retour!"
+        },
+
+        "author": "Ally F. Rose",
+        
+        "authorDescription": {
+            "quote": "“L’imagination est plus importante que le savoir,” Albert Einstein.",
+            "desc" : "Ally F. Rose est une avide lectrice et un jeune auteur indépendant.\nElle aime créer des personnages anti-conformistes, authentiques et réalistes auxquels, elle espère, ses lecteurs pourront s’identifier, comprendre et aimer.\n Ses ouvrages sont disponibles en version électronique sur Amazon, KOBO, FNAC, Atramenta…\nPassionnée de voyages, elle vit autour du monde.",
+            "contact" : "Contact: allyfrose@gmail.com",
+            "cta": "Découvrir"
+        },
+
+        "header": {
+            "home": {
+                "path": "/",
+                "text": "L'Auteur"
+            },
+            "library": {
+                "path": "/library",
+                "text": "Bibliothèque"
+            },
+            "poetry": {
+                "path": "/poetry",
+                "text": "Poèmes"
+            },
+            "news": {
+                "path": "/news",
+                "text": "Actualité"
+            },
+            "contact": {
+                "path": "/contact",
+                "text": "Contact"
+            }
+
+        },
+        
+        "mainMenu": [
+            {
+                "id": "home",
+                "path": "/",
+                "text": "L'Auteur"
+            },
+            {
+                "id": "books",
+                "path": "/library",
+                "text": "Bibliothèque"
+            },
+            {
+                "id": "poetry",
+                "path": "/poetry",
+                "text": "Poèmes"
+            },
+            {
+                "id": "news",
+                "path": "/news",
+                "text": "Actualité"
+            },
+            {
+                "id": "contact",
+                "path": "/contact",
+                "text": "Contact"
+            }
+        ],
+        
+        "loading": "Chargement en cours...",
+        
+        "readMore": "En savoir plus",
+        
+        "genericErrorMessage": "Oops, la page est indisponible. Veuillez réessayer plus tard.",
+        
+        "redirectErrorMessage": "Oops, le lien vers le site du vendeur est indisponible. Veuillez réessayer plus tard.",
+
+        "viewTitle": {
+            "library": "Bibliothèque",
+            "poetry": "Poèmes",
+            "news": "Actualité",
+            "contact": "Contact",
+            "allyRose": "Ally F. Rose",
+            "about": "À propos"
+        },
+
+        "contact": {
+            "title": "Contact",
+            "secondaryTitle": "La parole est à vous!",
+            "message": "Pour contacter Ally, vous pouvez envoyer un courriel à l'adresse : allyfrose@gmail.com ou remplir le formulaire ci-dessous.<br />Veuillez noter que tous les champs sont obligatoires.<br />Merci",
+            "fields": {
+                "name": "Nom et prénom (obligatoire)",
+                "email": "Votre e-mail (obligatoire)",
+                "subject": "Object (obligatoire)",
+                "message": "Votre message (obligatoire)",
+                "submit": "Envoyer"
+            },
+            "complete": {
+                "success": "Message reçu!<br />Ally reviendra vers vous dans les plus brefs délais.",
+                "failure": "Oops! Une erreur est survenue.<br />Veuillez réessayer ou envoyer un courriel à allyfrose@gmail.com.<br />Merci!"
+            }
+        },
+        
+        "cookieMessage": "Pour assurer le bon fonctionnement de ce site, nous devons parfois enregistrer de petits fichiers de données sur l'équipement de nos utilisateurs. La plupart des grands sites web font de même. Pour en savoir plus, consultez aboutcookies.org.",
+        
+        "defaultErrorDesc": {
+            "title": "ALLY F. ROSE",
+            "message": "Oops, la page est indisponible. Veuillez réessayer plus tard."
+        },
+
+        "bookDescription": {
+            "excerpt": "Extrait",
+            "summary": "Résumé",
+            "buy": "Acheter",
+            "available": "Le livre est en vente sur:",
+            "sequel": "Tome",
+            "genre": "Genres",
+            "more": "Autres Livres",
+            "explore": "Explorer"
+        },
+
+        "poetryItem": {
+            "readMore": "Lire la suite",
+            "likes": "Like(s)",
+            "readNext": "Lire aussi",
+            "read": "Lire",
+            "addToFavourites": "Ajouter aux favoris",
+            "removeFromFavourites": "Retirer des favoris",
+            "favouritesEmptyText": "Vos poèmes favoris apparaîtront ici",
+            "favourites": "Vos favoris",
+            "mostPopular": "Trier par popularité",
+            "all": "Trier par date"
+        },
+
+        "formValidation": {
+            "empty": "Des champs obligatoires sont vides.",
+            "email": " Veuillez entrer une adresse e-mail valide.",
+            "length": "Ce champ doit comporter au moins 10 charactères."
+        },
+
+        "themes": [
+            {
+                "name": "purple",
+                "color": "#403F63",
+                "secondary": "#FFFFFF"
+            }, 
+            {
+                "name": "darkPink",
+                "color": "#C36891",
+                "secondary": "#FFFFFF"
+            }, 
+            {
+                "name": "blue",
+                "color": "#74B9E8",
+                "secondary": "#000000"
+            },
+            {
+                "name": "lightGreen",
+                "color": "#5EC5BE",
+                "secondary": "#000000"
+            }
+        ],
+
+        "bookLatestNews": {
+            "header": "Bientôt disponible",
+            "title": "Les Sulfureuses",
+            "subtitle": "Le second tome de la trilogie 'La Reine de Glace'"
+        },
+
+        "askAQuestion": "Posez une question",
+
+        "footer": {
+            "quickLinks": "Liens rapides",
+            "helpInfo": "Plus d'informations",
+            "contact": "Contact",
+            "cookiePolicy": "Infos cookies",
+            "copyright": "Copyright © 2018 Ally F. Rose. Images © des propriétaires respectifs."
+        }
+    }
+}

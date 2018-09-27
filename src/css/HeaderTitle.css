@@ -1,0 +1,42 @@
+.headerTitle {
+    position: relative;
+    text-align: center;
+    color: #222222;
+    font-size: 35px;
+}
+
+.headerTitle span {
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+.headerTitle::after {
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    transform: translateY(-1px);
+    background-color: #CCCCCC;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+}
+
+@media (max-width : 900px) {
+    .headerTitle {
+        font-size: 30px;
+    }
+}
+
+@media (max-width : 500px) {
+    .headerTitle {
+        font-size: 20px;
+    }
+}

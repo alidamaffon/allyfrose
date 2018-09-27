@@ -1,0 +1,76 @@
+@import url('../css/Animate.css');
+
+.hero {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 90%;
+    width: 99%;
+}
+
+.heroOverlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;  
+}
+
+.heroTitleContainer {
+    font-family: 'Proza Libre', sans-serif;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    white-space: pre-wrap;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50%;
+}
+
+.heroSecondaryTitle {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.heroTitle {
+    -webkit-animation: zoomInUp 1s ease-in 0s 1 forwards;
+    -moz-animation: zoomInUp 1s ease-in 0s 1 forwards;
+    -o-animation: zoomInUp 1s ease-in 0s 1 forwards;
+    animation: zoomInUp 1s ease-in 0s 1 forwards;
+    color: #FFFFFF;
+    font-size: 60px;
+}
+
+@media (max-width : 1120px) {
+    .hero {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width : 900px) {
+    .heroTitle {
+        font-size: 40px;
+    }
+
+    .heroSecondaryTitle {
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 500px) {
+    .heroTitle {
+        font-size: 20px;
+    }
+
+    .heroSecondaryTitle {
+        font-size: 12px;
+    }
+    
+}

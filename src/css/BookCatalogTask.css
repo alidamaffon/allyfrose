@@ -1,0 +1,60 @@
+.catalogTask {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.catalogTaskImageContainer {
+    height: 330px;
+    width: 220px;
+} 
+
+.catalogTaskOverlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 320px;
+    width: 220px;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.catalogTaskButton { 
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    width: 150px;
+    margin: auto;
+    top: 50%;
+}
+
+.catalogTaskImage {
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);  
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); 
+    -ms-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); 
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    height: 320px;
+    width: 220px;
+}
+
+@media (max-width : 900px) {
+    .catalogTaskImage {
+        height: 280px;
+        width: 180px;
+    }
+
+    .catalogTaskImageContainer {
+        height: 280px;
+        width: 180px;
+    } 
+
+    .catalogTaskOverlay {
+        height: 280px;
+        width: 180px;
+    }
+}

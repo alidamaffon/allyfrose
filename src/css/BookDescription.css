@@ -1,0 +1,128 @@
+.bookDescription {
+    height: 100%;
+    width: 100%;
+}
+
+.bookDescriptionContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.bookDescriptionContainerA {
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    background-color: #000000;
+}
+
+.bookDescriptionContainerB {
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 98%;
+}
+
+.buyBoxesContainerB {
+    background-color: #DCDCDC;
+    padding: 40px 0;
+}
+
+.bookDescriptionBuyBox {
+    padding: 20px 0 0 0;
+    margin: auto;
+    width: 150px;
+}
+
+.bookSummaryTitle,
+.buyBoxesTitle,
+.bookExcerptTitle,
+.sequelTitle {
+    font-family: 'Michroma', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.buyBoxesSummary,
+.summary,
+.excerpt {
+    font-family: 'Nixie One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.sequel {
+    background-color: #DCDCDC;
+}
+
+.summary,
+.excerpt {
+    padding: 30px 60px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.buyBoxesSummary {
+    text-align: center;
+}
+
+.sequelCta {
+    padding: 0 0 40px 0;
+}
+
+.sequelImage {
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); 
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-top: 40px;
+    height: 350px;
+    width: 250px;
+}
+
+.bookDescriptionFooter {
+    margin-bottom: 10px;
+}
+
+.sequelCta {
+    margin-top: 20px;
+}
+
+@media (max-width : 900px) {
+    .summary,
+    .excerpt,
+    .buyBoxesSummary {
+        font-size: 13px;
+    }
+
+    .bookSummaryTitle,
+    .buyBoxesTitle,
+    .bookExcerptTitle,
+    .sequelTitle {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .sequelImage {
+        height: 300px;
+        width: 200px;
+    }
+
+    .summary,
+    .excerpt,
+    .buyBoxesSummary {
+        font-size: 11px;
+    }
+
+    .bookSummaryTitle,
+    .buyBoxesTitle,
+    .bookExcerptTitle,
+    .sequelTitle {
+        font-size: 11px;
+    }
+}

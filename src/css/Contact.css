@@ -1,0 +1,149 @@
+.contact {
+    height: 100%;
+    width: 100%;
+}
+
+.contactContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.contactContent {
+    background-color: #DCDCDC;
+    padding: 0 0 40px 0;
+    margin: 0;
+}
+
+.submitMessage,
+.viewInfo,
+.message,
+.subject,
+.email,
+.name {
+    font-family: 'Nixie One', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.viewInfo {
+    font-family: 'Nixie One', sans-serif;
+    background-color: #404040;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 50px;
+}
+
+.formContainer {
+    padding: 50px 0 40px 0;
+}
+
+.messageContainer,
+.subjectContainer,
+.emailContainer,
+.nameContainer {
+    margin-bottom: 20px;
+}
+
+.subject:focus,
+.message:focus,
+.email:focus,
+.name:focus{
+    outline: none;
+}
+
+.subject,
+.email,
+.name {
+    width: 500px;
+    height: 30px;
+}
+
+.message {
+    width: 500px;
+    height: 300px;
+}
+
+.messageError,
+.subjectError,
+.emailError,
+.mainError {
+    font-family: 'Nixie One', sans-serif;
+    letter-spacing: 2px;
+    color: #CD0000;
+    font-size: 15px;
+}
+
+.mainError {
+    margin-top: 50px;
+}
+
+.submitMessage {
+    font-family: 'Nixie One', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.contactSubmitContainer {
+    margin: 10px auto 0 auto;
+    width: 150px;
+}
+
+@media (max-width : 900px) {
+    .submitMessage,
+    .messageError,
+    .subjectError,
+    .emailError,
+    .mainError,
+    .viewInfo,
+    .submitMessage,
+    .viewInfo,
+    .message,
+    .subject,
+    .email,
+    .name {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 600px) {
+    .subject,
+    .email,
+    .name {
+        width: 400px;
+    }
+
+    .message {
+        width: 400px;
+    }
+}
+
+@media (max-width : 500px) {
+    .submitMessage,
+    .messageError,
+    .subjectError,
+    .emailError,
+    .mainError,
+    .viewInfo,
+    .submitMessage,
+    .viewInfo,
+    .message,
+    .subject,
+    .email,
+    .name {
+        font-size: 11px;
+    }
+
+    .subject,
+    .email,
+    .name {
+        width: 300px;
+    }
+
+    .message {
+        width: 300px;
+    }
+}

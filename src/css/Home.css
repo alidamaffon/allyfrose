@@ -1,0 +1,135 @@
+@import url('../css/Animate.css');
+
+.home {
+    height: 100%;
+    width: 100%;
+}
+
+.homeContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.author {
+    letter-spacing: 2px;
+    position: relative;
+    width: 100%;
+}
+
+.authorDesc {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    width: 40%;
+    z-index: 3;
+    right: 0;
+    top: 50%;
+}
+
+.authorDescContent {
+    padding: 20px;
+}
+
+.authorDescContentText {
+    font-family: 'Nixie One', sans-serif;
+    white-space: pre-line;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.authorQuote {
+    font-family: 'Michroma', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100% 0; 
+    background-size: cover;
+    white-space: pre-line;
+    position: relative;
+    color: #FFFFFF;
+    height: 450px;
+    width: 90%;
+}
+
+.authorQuoteOverlay {
+    padding-left: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.authorQuoteText {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    font-size: 20px;
+    width: 50%;
+    top: 50%;
+}
+
+.authorDescButtonContainer {
+    margin: 10px auto 0 auto;
+    width: 150px;
+}
+
+.authorDescButtonLink {
+    text-decoration: none;
+}
+
+@media (max-width : 1120px) {
+    .authorQuote {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width : 900px) {
+    .authorQuote {
+        height: 350px;
+        width: 100%;
+    }
+
+    .authorQuoteOverlay {
+        padding: 20px;
+    }
+
+    .authorQuoteText {
+        width: 100%;
+    }
+
+    .authorDesc {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        transform: none;
+        
+        position: relative;
+        width: 100%;
+        z-index: 0;
+        top: 0;
+    }
+
+    .authorDescContentText,
+    .authorQuoteText {
+        font-size: 13px;
+    }
+
+    .authorDescButtonContainer {
+        margin: 20px auto 0 auto;
+    }
+}
+
+@media (max-width : 500px) {
+    .authorQuoteText,
+    .authorDescContentText {
+        font-size: 11px;
+    }
+}

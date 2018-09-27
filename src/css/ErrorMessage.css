@@ -1,0 +1,45 @@
+.errorContainer {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    letter-spacing: 2px;
+    position: absolute;
+    line-height: 30px;
+    width: 100%;
+    top: 50%;
+}
+
+.errorTitle,
+.errorMessage {
+    font-family: 'Nixie One', sans-serif;
+}
+
+.errorTitle {
+    font-size: 20px;
+}
+
+.errorMessage {
+    font-size: 15px;
+}
+
+@media (max-width : 900px) {
+    .errorTitle {
+        font-size: 15px;
+    }
+
+    .errorMessage {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .errorTitle {
+        font-size: 13px;
+    }
+
+    .errorMessage {
+        font-size: 11px;
+    }
+    
+}

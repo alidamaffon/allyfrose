@@ -1,0 +1,35 @@
+.favIconContainer {
+    display: inline-block;
+    margin: 0 2% 0 2%;
+    color: #000000;
+    
+}
+
+.favIcon {
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.favIconLabel {
+    font-family: 'Nixie One', sans-serif;
+    display: inline-block;
+    position: relative;
+    margin-left: 7px;
+    font-size: 15px;
+    top: -4px;
+}
+
+@media (max-width : 900px) {
+    .favIconLabel {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .favIconLabel {
+        font-size: 11px;
+    }
+}

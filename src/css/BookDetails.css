@@ -1,0 +1,48 @@
+.bookDescLabel,
+.bookBuyLabel,
+.bookShortDesc {
+    font-family: 'Nixie One', sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.bookShortDesc,
+.bookBuyLabel {
+    margin-top: 10px;
+}
+
+.bookShortDesc {
+    margin-bottom: 10px;
+}
+
+.bookDescLabel,
+.bookBuyLabel {
+    border-bottom: 1px solid #8C8C8C;
+}
+
+.bookBuyboxes {
+    padding: 10px 0 20px 0;
+}
+
+.buyBoxContainer {
+    margin: 10px auto 0 auto;
+    width: 150px;
+}
+
+@media (max-width : 900px) {
+    .bookDescLabel,
+    .bookBuyLabel,
+    .bookShortDesc {
+        font-size: 12px;
+    }
+}
+
+@media (max-width : 500px) {
+    .bookDescLabel,
+    .bookBuyLabel,
+    .bookShortDesc {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,27 @@
+.newsIcon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.newsItemDate {
+    font-family: 'Nixie One', sans-serif;
+    display: inline-block;
+    letter-spacing: 2px;
+    position: relative;
+    margin-left: 10px;
+    font-size: 13px;
+    top: -5px;
+}
+
+@media (max-width : 900px) {
+    .newsItemDate {
+        font-size: 11px;
+    }
+}
+
+@media (max-width : 500px) {
+    .newsItemDate {
+        font-size: 9px;
+    }
+}

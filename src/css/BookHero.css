@@ -1,0 +1,73 @@
+.bookHeroContainer {
+    padding: 30px 40px 40px 50px;
+    background-color: #DCDCDC;
+    margin-top: -30px;
+    height: 450px;
+}
+
+.bookHeroRight {
+    float: left;
+    width: 65%;
+}
+
+.bookHeroLeft {
+    float: left;
+    width: 35%;
+}
+
+.bookHeroGenres {
+    margin: 10px 0 20px 0;
+    text-align: left;
+}
+
+.bookHeroTitle {
+    font-family: 'Proza Libre', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.bookHeroImageContainer {
+    text-align: left;
+}
+
+.bookHeroImage {
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);  
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); 
+    -ms-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); 
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    height: 350px;
+    width: 250px;
+}
+
+@media (max-width : 900px) {
+    .bookHeroImage {
+        height: 280px;
+        width: 180px;
+    }
+
+    .bookHeroRight {
+        width: 70%;
+    }
+    
+    .bookHeroLeft {
+        width: 30%;
+    }
+
+    .bookHeroTitle {
+        font-size: 14px;
+    }
+
+    .bookHeroContainer {
+        height: 420px;
+    }
+}
+
+@media (max-width : 500px) {
+    .bookHeroTitle {
+        font-size: 10px;
+    }
+}

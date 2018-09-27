@@ -1,0 +1,107 @@
+.mainContainer,
+.mainMobileContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.navigation {
+    background-color: #050505;
+    position: fixed;
+    padding: 0px;
+    height: 50px;
+    z-index: 10;
+    width: 100%;
+    margin: 0px;
+    top: 0;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+}
+
+.menuIcon {
+    margin-left: 14px;
+    margin-top: 12px;
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+
+.menuTitle {
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    width: 95%;
+    margin: 0;
+}
+
+.mobileNavigation {
+    background-color: rgba(0 , 0, 0, 0.9);
+    font-family: 'Poiret One', sans-serif;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+ul.mobileMainMenu {   
+    letter-spacing: 2px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+ul.mobileMainMenu li {
+    padding: 0 0 15px 25px;
+    clear: both;
+    margin: 0;
+}  
+  
+ul.mobileMainMenu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+ul.mobileMainMenu h1 {
+    padding: 20px 0 50px 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0;
+}
+
+ul.mobileMainMenu .close {
+    position: absolute;
+    height: 25px;
+    right: 25px;
+    width: 25px;
+    top: 17px;
+}
+
+.mobileNavOptions {
+    padding-left: 25px;
+    height: 80px;
+}
+
+.mobileNavTwitterLogo {
+    padding-left: 30px;
+    margin-top: 8px;
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+.mobileNavLang {  
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+}

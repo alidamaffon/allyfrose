@@ -1,0 +1,25 @@
+.loadingContainer {
+    font-family: 'Nixie One', sans-serif;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    top: 50%;
+}
+
+@media (max-width : 900px) {
+    .loadingContainer {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .loadingContainer {
+        font-size: 11px;
+    }   
+}

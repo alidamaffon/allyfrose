@@ -1,0 +1,47 @@
+.appPolicy {
+    height: 100%;
+    width: 100%;
+}
+
+.appPolicyContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.appPolicyContainerA {
+    background-color: #000000;
+    width: 100%;
+}
+
+.appPolicyContainerB {
+    background-color: #ffffff;
+    margin: auto;
+    width: 98%;    
+}
+
+.appPolicyContent {
+    font-family: 'Nixie One', sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 15px;
+    padding: 30px;
+}
+
+.appPolicyContainerB span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width : 900px) {
+    .appPolicyContent {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .appPolicyContent {
+        font-size: 11px
+    }
+}

@@ -1,0 +1,53 @@
+.appButtonA {
+    background-image: linear-gradient(to left, transparent, transparent 50%, #FFFFFF 50%, #FFFFFF);
+    -webkit-transition: all .25s ease-in;
+    -moz-transition: all .25s ease-in;
+    -ms-transition: all .25s ease-in;
+    -o-transition: all .25s ease-in;
+    transition: all .25s ease-in;
+
+    background-color: transparent;
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+}
+
+.appButtonA:hover,
+.appButtonB:hover {
+    background-color: #FFFFFF;
+    background-position: 0 0;
+}
+
+.appButtonB {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    font-family: 'Nixie One', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: relative;
+    line-height: 25px;
+    font-size: 15px; 
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+    top: 50%; 
+}
+
+@media (max-width : 900px) {
+    .appButtonB {
+        font-size: 12px;
+    }
+}
+
+@media (max-width : 500px) {
+    .appButtonB {
+        font-size: 10px;
+    }
+}

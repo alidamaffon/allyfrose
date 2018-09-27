@@ -1,0 +1,34 @@
+.likeIconContainer {
+    display: inline-block;
+    color: #000000;
+}
+
+.likeIcon {
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.likeIconLabel {
+    font-family: 'Nixie One', sans-serif;
+    display: inline-block;
+    position: relative;
+    margin-left: 7px;
+    font-size: 15px;
+    top: -4px;
+}
+
+@media (max-width : 900px) {
+    .likeIconLabel {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .likeIconLabel {
+        font-size: 11px;
+    }
+}

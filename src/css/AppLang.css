@@ -1,0 +1,16 @@
+.welcomeLink {
+    text-decoration: none;
+}
+
+.welcomeButton {
+    margin: 40px 20px 0 20px;
+    display: inline-block;
+    width: 150px;
+}
+
+@media (max-width : 500px) {
+    .welcomeButton {
+        display: block;
+        margin: 20px auto 10px auto;
+    }
+}

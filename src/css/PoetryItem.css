@@ -1,0 +1,47 @@
+.poetryItem {
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #000000;
+    padding: 0;
+    width: 80%;
+}
+
+.poetryItemTitle {
+    font-family: 'Proza Libre', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.poetryFooterContainer {
+    margin-top: 20px;
+}
+
+.poetryItemExcerpt {
+    font-family: 'Nixie One', sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 15px;
+}
+
+@media (max-width : 900px) {
+    .poetryItemTitle {
+        font-size: 30px;
+    }
+
+    .poetryItemExcerpt {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .poetryItemTitle {
+        font-size: 15px;
+    }
+
+    .poetryItemExcerpt {
+        font-size: 11px;
+    }
+}

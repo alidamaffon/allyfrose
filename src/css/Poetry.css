@@ -1,0 +1,43 @@
+.poetry {
+    height: 100%;
+    width: 100%;
+}
+
+.poetryContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.orderByContainer {
+    text-align: left;
+}
+
+.orderByItems {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.orderByItems li { 
+    font-family: 'Poiret One', sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0;
+}
+
+@media (max-width : 900px) {
+    .orderByItems li {
+        font-size: 13px;
+        padding: 13px;
+    }
+}
+
+@media (max-width : 500px) {
+    .orderByItems li {
+        font-size: 11px;
+        padding: 11px;
+    }
+}

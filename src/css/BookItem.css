@@ -1,0 +1,69 @@
+.bookItemContainer {
+    border-bottom: 1px solid #000000;
+    background-color: #DCDCDC;
+    margin: -28px auto 10px auto;
+    padding: 10px 0 10px 0;
+    height: auto;
+    width: 95%;
+}
+
+.bookItemTitle {
+    font-family: 'Proza Libre', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.bookItemImage {
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);  
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); 
+    -ms-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); 
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+    height: 350px;
+    width: 250px;
+}
+
+.bookItemGenres {
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.bookItemSagaTitle {
+    font-family: 'Proza Libre', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+@media (max-width : 900px) {
+    .bookItemTitle {
+        font-size: 28px;
+    }
+
+    .bookItemSagaTitle {
+        font-size: 14px;
+    }
+}
+
+@media (max-width : 500px) {
+    .bookItemTitle {
+        font-size: 20px;
+    }
+
+    .bookItemImage {
+        height: 280px;
+        width: 180px;
+    }
+
+    .bookItemSagaTitle {
+        font-size: 11px;
+    }
+
+    .bookItemContainer {
+        margin: -21px auto 10px auto;
+    }
+}

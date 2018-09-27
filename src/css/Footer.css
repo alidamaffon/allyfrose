@@ -1,0 +1,57 @@
+.footerContainer {
+    font-family: 'Nixie One', sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.footerBanner {
+    height: 20px;
+}
+
+.footerContent {
+    padding: 30px 20px 30px 20px;
+    background-color: #404040;
+}
+
+.footerContactLink,
+.poetryPromoLink,
+.cookPolicyLink,
+.bookPromoLink {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footerQuickLinks,
+.footerHelp {
+    display: inline-block;
+    position: relative;
+    line-height: 20px;
+}
+
+.footerHelp {
+    margin-left: 10%;
+}
+
+.quickLinksTitle,
+.helpTitle {
+    text-transform: uppercase;
+}
+
+.copyright {
+    text-align: center;
+    margin-top:20px;
+}
+
+@media (max-width : 768px) {
+    .footerQuickLinks,
+    .footerHelp {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .footerHelp {
+        margin-left: 0px;
+    }
+}

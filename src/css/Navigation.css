@@ -1,0 +1,73 @@
+.mainNavigation {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-color: #050505;
+    text-align: center;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    top: 0;  
+}
+
+ul.mainMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.mainMenu li {
+    display: inline-block;
+}
+  
+ul.mainMenu li a {
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    margin: 17px 30px 0 30px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+ul.mainMenu li a:hover {
+    border-bottom: 1px solid #C36891;
+    padding-bottom: 3px
+}
+
+.navOptions {
+    font-family: 'Poiret One', sans-serif;
+    padding-right: 10px;
+    position: absolute;
+    height: 100px;
+    width: 80px;
+    right: 0;
+    top: 0;
+}
+
+.twitterLogo {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 8px;
+}
+
+.navLang {
+    text-transform: uppercase;
+    margin-right: 45px;
+    font-weight: bold;
+    margin-top: 14px;
+    cursor: pointer;
+    font-size: 20px;
+}

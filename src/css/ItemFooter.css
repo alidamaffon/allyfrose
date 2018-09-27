@@ -1,0 +1,11 @@
+.itemFooter {
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid #000000;
+}
+
+.itemFooterCenter {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #000000;
+}
